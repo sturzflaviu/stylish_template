@@ -1,0 +1,24 @@
+{
+  "name": "stylish_template",
+  "version": "1.0.0",
+  "description": "Template",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Flaviu Sturz",
+  "license": "ISC",
+  "dependencies": {
+    "del": "^3.0.0",
+    "gulp-cli": "^2.0.1"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^6.0.0",
+    "gulp-csso": "^3.0.1",
+    "gulp-sass": "^4.0.2",
+    "gulp-watch": "^5.0.1",
+    "node-sass": "^4.10.0",
+    "run-sequence": "^2.2.1"
+  }
+}
