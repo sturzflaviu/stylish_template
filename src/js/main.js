@@ -11,4 +11,11 @@ $(document).ready(function() {
     $(event.currentTarget).attr('controls', '');
     });
 
+    $('.scroll-to').click(function(e){        
+        var jump = $(this).attr('href');
+        var new_position = $(jump).offset();        
+        $('html, body').stop().animate({ scrollTop: new_position.top }, 1000);        
+        e.preventDefault();        
+    });
+
   });
