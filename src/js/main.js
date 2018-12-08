@@ -18,4 +18,12 @@ $(document).ready(function() {
         e.preventDefault();        
     });
 
+    $(document).click(function (event) {
+      var clickOver = $(event.target);
+      var navbarOpen = $(".navbar-collapse").hasClass("show");
+      if (navbarOpen === true && !clickOver.hasClass("navbar-toggler")) {
+          $("button.navbar-toggler").click();
+      }
+  });
+
   });

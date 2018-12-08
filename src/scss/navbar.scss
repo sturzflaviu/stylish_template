@@ -1,0 +1,53 @@
+#navBar {
+    .navbar {
+        position: fixed;
+        top: 0;
+        right: 0;
+        left: auto; 
+        z-index: 1030;
+        height: 100%;
+
+        .navbar-toggler {
+            z-index: 1;
+            .navbar-toggler-icon {
+                background-image: url("../../img/x_logo.png");
+                background-size: contain;
+            }
+        }
+
+        .navbar-collapse {
+            position: absolute;
+            top: 0px;
+            // left: 1px;
+            height: 100%;
+            right: 0px;
+            padding-left: 15px;
+            padding-right: 15px;
+            padding-bottom: 15px;
+            // width: 200px;
+            transition: all 0.3s ease-out;
+            background: red;
+    
+            &.collapsing {
+                // height: auto !important;
+                // left: 0px;
+                // transition: all 0.2s ease;
+                // left: 800px;
+                // width: 200px;   
+                // right: 200px;
+                // right: -200px;
+                height: 0px!important;
+                width: 0px!important;
+                // transition: all 0.2s ease;
+                     
+            }
+    
+            &.show {
+                right: 0px;
+                width: 200px;
+                // transition: all 0.2s ease;
+                transition: all 0.2s ease-in;
+            }
+        }
+    }
+}
