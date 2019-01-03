@@ -1,48 +1,5 @@
 @import "_variables.scss";
 
-#navBar {
-    .navbar {
-        position: fixed;
-        top: 0;
-        right: 0;
-        left: auto; 
-        z-index: 1030;
-        height: 100%;
-
-        .navbar-toggler {
-            z-index: 1;
-            .navbar-toggler-icon {
-                
-            }
-        }
-
-        .navbar-collapse {
-            right: -200px;
-            position: absolute;
-            top: 0px;
-            width: 200px;            
-            height: 100%;            
-            padding-left: 15px;
-            padding-right: 15px;
-            padding-bottom: 15px;            
-            transition: 0.5s;
-            background: $normal-gray;
-    
-            &.collapsing {
-                // -webkit-transition: none;
-                // transition: none;
-                // display: none;   
-                height: 100%!important;                 
-            }
-    
-            &.show {
-                right: 0px;                           
-                transition: 0.7s;
-            }
-        }
-    }
-}
-
 #customNav {
     position: fixed;
     z-index: 1;

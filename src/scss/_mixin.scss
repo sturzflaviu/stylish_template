@@ -1,0 +1,19 @@
+@import "_variables.scss";
+
+@mixin default-button($bg-color: $indigo-blue, $color: $white) {
+    width: 170px;
+    height: 60px;
+    background-color: $bg-color;
+    color: $color;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &.icon {
+
+    }
+
+    &.active, &:active {
+        opacity: .8;
+    }
+}

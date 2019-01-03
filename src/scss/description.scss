@@ -1,0 +1,14 @@
+@import "_variables.scss";
+@import "_mixin.scss";
+
+#description {
+    background-color: $mustary-yellow;
+    .description {
+        height: 300px;
+        
+        .btn-offer {            
+            @include default-button();
+        }
+    }
+    
+}
