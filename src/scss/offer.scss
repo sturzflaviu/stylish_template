@@ -4,4 +4,48 @@
 #offer {
     background: $indigo-blue;
     color: $white;
+
+    .offer {
+        height: 500px;
+
+        .title {
+            font-size: 45px;
+        }
+
+        .btn-photo {
+            width: 150px;
+            height: 150px;
+            border-radius: 100px; 
+            background-color: $light-gray;
+
+            &:hover, &:active {
+                background-color: $normal-gray;
+                color: $mustary-yellow;
+            }
+        }
+
+        .btn-video {
+            width: 150px;
+            height: 150px;
+            border-radius: 100px; 
+            background-color: $light-gray;
+
+            &:hover, &:active {
+                background-color: $normal-gray;
+                color: $mustary-yellow;
+            }
+        }
+
+        .btn-work {
+            width: 150px;
+            height: 150px;
+            border-radius: 100px; 
+            background-color: $light-gray;
+
+            &:hover, &:active {
+                background-color: $normal-gray;
+                color: $mustary-yellow;
+            }  
+        }
+    }
 }

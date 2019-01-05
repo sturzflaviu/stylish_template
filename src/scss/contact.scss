@@ -1,0 +1,14 @@
+@import "_variables.scss";
+@import "_mixin.scss";
+
+#contact {
+    background-color: $mustary-yellow;
+
+    .title {
+        font-size: 20px;
+    }
+
+    .btn-contact {
+        @include default-button($bg-color: $normal-gray, $color: $white);
+    }
+}

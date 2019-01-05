@@ -1,0 +1,45 @@
+@import "_variables.scss";
+@import "_mixin.scss";
+
+#socialMedia {
+    background-color: $indigo-blue;
+
+    .facebook-icon {
+        width: 70px;
+        height: 70px;
+        border-radius: 100px; 
+        background-color: $light-gray;
+        color: $white;
+
+        &:hover, &:active {
+            background-color: $normal-gray;
+            color: $mustary-yellow;
+        }
+    }
+
+    .instagram-icon {
+        width: 70px;
+        height: 70px;
+        border-radius: 100px; 
+        background-color: $light-gray;
+        color: $white;
+
+        &:hover, &:active {
+            background-color: $normal-gray;
+            color: $mustary-yellow;
+        }
+    }
+
+    .youtube-icon {
+        width: 70px;
+        height: 70px;
+        border-radius: 100px; 
+        background-color: $light-gray;
+        color: $white;
+
+        &:hover, &:active {
+            background-color: $normal-gray;
+            color: $mustary-yellow;
+        }
+    }
+}

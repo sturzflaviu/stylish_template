@@ -56,7 +56,8 @@ gulp.task('watch', function(){
 gulp.task('default', ['clean'], function () {
     runSequence(
       'styles',
-      'imagemin'
+      'imagemin',
+      'watch'
     );
 });
 
