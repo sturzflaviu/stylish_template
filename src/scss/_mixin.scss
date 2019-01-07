@@ -17,3 +17,13 @@
         opacity: .8;
     }
 }
+
+@mixin header-font-size($biggest-font-size) {
+    /* biggest-font-size >=70px -- recommended */
+    font-size: $biggest-font-size - 40px;
+    @media (min-width: 576px) { font-size: $biggest-font-size - 30px; }
+
+    @media (min-width: 768px) { font-size: $biggest-font-size - 20px; }
+
+    @media (min-width: 1200px) { font-size: $biggest-font-size; }
+}

@@ -1,0 +1,32 @@
+@import "_variables.scss";
+@import "_mixin.scss";
+
+#home {
+    // height: 700px;
+    height: 80vh;
+    width: 100%;
+    background-image: url("../../img/pic-4.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    .text {
+        height: inherit;
+        width: inherit;
+        text-align: center;
+
+        .title {
+            @include header-font-size(90px);            
+            font-weight: bold;
+            color: $white;
+
+        }
+    
+        .subtitle {
+            font-size: 50px;
+            color: $white;
+        }
+    }
+
+    
+}
