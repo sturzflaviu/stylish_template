@@ -8,4 +8,6 @@
 # How to run this project
 1. Clone repository
 2. Make sure to have installed node.js
-3. Run in command line inside project directory: 'npm install'
+3. Install gulp globally
+4. Run in command line inside project directory: 'npm install'
+5 Run gulp default to compile scss
